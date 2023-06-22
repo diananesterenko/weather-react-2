@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './WeatherDegree.css';
+ 
 export default function Weatherdegree(props) {
   const [unit, setUnit] = useState("celsius");
   function convertToFarenh(event) {
@@ -11,9 +13,9 @@ export default function Weatherdegree(props) {
   }
   if (unit === "celsius") {
     return (
-      <div className="degrees">
-        <h1 id="currentDegree">{props.celsius}</h1>
-        <div className="CF">
+      <div className="degrees row">
+        <h1 id="currentDegree" className='col-5'>{props.celsius}</h1>
+        <div className="CF col-7" >
           <p id="celcium on">°C</p>
           <p id="CFline">/</p>
           <a href="/" onClick={convertToFarenh} id="farenheit">
@@ -25,7 +27,9 @@ export default function Weatherdegree(props) {
   } else {
     let farenh = (props.celsius * 9) / 5 + 32;
     return (
-      <div className="degrees">
+      
+
+      <div className="degrees row">
         <h1 id="currentDegree">{Math.round(farenh)}</h1>
         <div className="CF">
           <a href="/" onClick={convertToCelsius} id="celcium">

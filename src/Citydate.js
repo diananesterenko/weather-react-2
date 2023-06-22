@@ -2,46 +2,47 @@ import React from "react";
 import FormatedDate from "./FormatedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherDegree from "./WeatherDegree";
+import './WeatherDegree.css';
 
 export default function Citydate(props){
     return( 
-    <section class="city-date">
+    <section className="city-date">
     <h2 id="city">{props.value.cityVal}</h2>
-    <div class="row city-date-main">
-        <div class="col-5 iconAndDiscr" >
+    <div className="row city-date-main">
+        <div className="col-5 iconAndDiscr" >
             
             <WeatherIcon
-              className="iconmain2"
+             classNameName="iconmain2"
               value={props.value.icon}
               size={250}
               size2={150}
             />
             <p id="description">{props.value.description}</p>
         </div>
-        <div class="col-1"></div>
-        <div class="col-6 weatherdate2colmn">
-            <div class="date">
-            <div class="row degree-line" >
-                <WeatherDegree celsius={props.value.temp} />
+        <div className="col-1"></div>
+        <div className="col-6 weatherdate2colmn">
+            <div className="date">
+            <div className="row degree-line" >
+                <WeatherDegree celsius={props.value.degrees} />
                
             </div> 
-                <div class="row">
-                <div class="row"><p id="day"></p></div>        
+                <div className="row">
+                <div className="row"><p id="day"></p></div>        
                 <FormatedDate date={props.value.date} />
                 
                 
                 </div>
            
             </div>
-            <div class="tempLowHigh">
-                <div class="row">
+            <div className="tempLowHigh">
+                <div className="row">
                     
-                    <div class="col-5">
-                       <span id="lowTemp">7</span> {props.value.lowTemp}<span> °</span>
+                    <div className="col-5">
+                       <span id="lowTemp">{props.value.lowTemp}</span> <span> °</span>
                        <p>Low</p>
                     </div>
-                    <div class="col-5">
-                        <span id="highTemp">17</span> {props.value.highTemp} <span> °</span>
+                    <div className="col-5">
+                        <span id="highTemp"></span> {props.value.highTemp} <span> °</span>
                         <p>High</p>
                      </div>
                     

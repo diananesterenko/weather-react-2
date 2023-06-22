@@ -1,33 +1,12 @@
-body{
-    
-    background-image: url(https://phonoteka.org/uploads/posts/2022-01/thumbs/1643268908_60-phonoteka-org-p-pogoda-fon-69.jpg);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-size:cover;
-}
-.weather-app{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width: 600px;
-    margin: 10px auto 30px auto;
-    padding: 0px 20px 20px 20px;
-    opacity: 0.9;
-    border: 1px solid rgb(185, 185, 185);
-    border-radius: 5px;
-    
-}
-.weather-app h1 {
-    color: rgb(209, 209, 209);
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.268);
-    font-size: 32px;
-    
-  }
+
+
   .form1 .row{
     padding-left: 20px;
   }
 #city{
    font-size: 30px;
    font-weight: 250;
-   
+
    line-height: 28px;
  
 }
@@ -36,7 +15,6 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 15px;
-   
 }
 
 .container {
@@ -104,7 +82,9 @@ body{
   #day{
     padding-left: 40%;
   }
-
+  .degree-line{
+    font-size: 30px;
+  }
   .tempLowHigh {
     box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
     border-radius: 24px;
@@ -138,6 +118,12 @@ body{
     padding: 0px 3px;
     margin: 0px 15px 10px 0px;
     width: 50px;
+  }
+  .FormDate{
+    text-align: center;
+  }
+  .Date{
+    padding-bottom: 25px;
   }
   .vl {
     border-left: 2px solid #a3aab0;
@@ -213,7 +199,34 @@ body{
   .week-forecast-tempMin{
     opacity: 85%;
   }
+  .CF {
+    display: flex;
+    font-size: 18px;
+  }
+  .CF p {
+    color: #d3d3d3be;
+    padding-left: 10px;
+    background-color: none;
+    padding-top: 10px;
+    font-weight: bold;
+    text-shadow: 3px -1px rgb(55, 55, 55);
+  }
+  #CFline {
+    color: rgb(41, 40, 40);
+    text-shadow: none;
+  }
+  #celcium:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
  
+  #farenheit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .active {
+    text-decoration: underline;
+  }
   @media (min-width: 994px){
     .week-forecast .row{
       margin-left: 20px;

@@ -44,8 +44,8 @@ export default function App() {
         sunrise: ConvertTime(Math.round(response.sys.sunrise)),
         sunset: ConvertTime(Math.round(response.sys.sunset)),
         feels:`${Math.round(response.main.feels_like)}°C`,
-        coord: response.data.coord,
-        date: new Date(response.data.dt * 1000),
+        coord: response.coord,
+        date: new Date(response.dt * 1000),
         ready: true,
       });
     }
@@ -71,23 +71,24 @@ export default function App() {
   
   if (weatherDate.ready) {
   return (
-    <div className="App">
+    <div className="weather-app">
     <br />
     <div className="content">
       <h1>Weather Forecast</h1>
-      <form onSubmit={handleSubmit} class="form1" id="forminput">
-                <div class="row">
-                    <div class="col-6"><input id="search" class="search" type="search" placeholder="Search" /></div>
-                    <div class="col-1"></div>
-                    <div class="col-2"> <input type="submit" onChange={handleCityChange} class="submit" value="" /></div>
+      <form onSubmit={handleSubmit} className="form1" id="forminput">
+                <div className="row">
+                    <div className="col-6"><input id="search" className="search" type="search" placeholder="Search" /></div>
+                    <div className="col-1"></div>
+                    <div className="col-2"> <input type="submit" onChange={handleCityChange} className="submit" value="" /></div>
                    
-                    <div class="col-2"><input type="" class="submit" id="current" value="Current" /></div>
+                    <div className="col-2"><input type="" className="submit" id="current" value="Current" /></div>
                 </div>
                 
                
                 
       </form>
       <Citydate value={weatherDate} />
+      <Weathermarkers value={weatherDate} />
       
     </div>
   </div>
