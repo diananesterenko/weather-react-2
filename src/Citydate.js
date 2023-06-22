@@ -3,6 +3,8 @@ import FormatedDate from "./FormatedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherDegree from "./WeatherDegree";
 import './WeatherDegree.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default function Citydate(props){
     return( 
@@ -13,6 +15,7 @@ export default function Citydate(props){
             
             <WeatherIcon
              classNameName="iconmain2"
+             id='weather-icon'
               value={props.value.icon}
               size={250}
               size2={150}

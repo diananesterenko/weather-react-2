@@ -30,8 +30,8 @@ export default function Weatherdegree(props) {
       
 
       <div className="degrees row">
-        <h1 id="currentDegree">{Math.round(farenh)}</h1>
-        <div className="CF">
+        <h1 id="currentDegree" className='col-5'>{Math.round(farenh)}</h1>
+        <div className="CF col-7">
           <a href="/" onClick={convertToCelsius} id="celcium">
             °C
           </a>

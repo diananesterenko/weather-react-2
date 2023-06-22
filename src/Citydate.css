@@ -84,6 +84,8 @@
   }
   .degree-line{
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
   }
   .tempLowHigh {
     box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
@@ -146,8 +148,8 @@
     width: 65%;
     margin-bottom: 10px;
   }
-  #weather-icon{
-    max-width: 70%;
+  canvas{
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -200,7 +202,7 @@
     opacity: 85%;
   }
   .CF {
-    display: flex;
+   
     font-size: 18px;
   }
   .CF p {

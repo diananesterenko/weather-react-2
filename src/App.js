@@ -66,6 +66,7 @@ export default function App() {
     }
     function handleCityChange(event) {
       setCity(event.target.value);
+      console.log('chaaangeee');
       console.log(city);
     }
   
@@ -77,9 +78,9 @@ export default function App() {
       <h1>Weather Forecast</h1>
       <form onSubmit={handleSubmit} className="form1" id="forminput">
                 <div className="row">
-                    <div className="col-6"><input id="search" className="search" type="search" placeholder="Search" /></div>
+                    <div className="col-6"><input id="search" className="search" onChange={handleCityChange}ype="search" placeholder="Search" /></div>
                     <div className="col-1"></div>
-                    <div className="col-2"> <input type="submit" onChange={handleCityChange} className="submit" value="" /></div>
+                    <div className="col-2"> <input type="submit"  className="submit" value="" /></div>
                    
                     <div className="col-2"><input type="" className="submit" id="current" value="Current" /></div>
                 </div>
@@ -89,7 +90,8 @@ export default function App() {
       </form>
       <Citydate value={weatherDate} />
       <Weathermarkers value={weatherDate} />
-      
+      <hr />
+      <WeatherForecast coords={weatherDate.coord} />
     </div>
   </div>
   );

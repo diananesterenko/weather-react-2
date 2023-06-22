@@ -1,5 +1,5 @@
 import React from "react";
-import FormatedDate from "./FormatedDate";
+
 import "./Citydate.css";
 
 export default function Weathermarkers(props){
@@ -9,7 +9,8 @@ export default function Weathermarkers(props){
 
         <div className="col2 row">
             <div className="col-5" id="markersLabel">
-                <i className="fa-solid fa-wind" style= {{color: '#212121'}}></i>
+      
+                
                 <span >Wind</span>
                 
                
