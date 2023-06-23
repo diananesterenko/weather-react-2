@@ -5,6 +5,9 @@ body{
     background-position: 100%;
     background-size:cover;
 }
+article{
+  
+}
 .weather-app{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 600px;
@@ -169,50 +172,7 @@ body{
     padding-top: 15px;
   }
 
-  .week-forecast .row {
-    display: flex;
-    margin: auto 0;
-   justify-content: space-around;
-    text-align: center;
-    padding: 20px 0px 10px 0px;
-    max-width: 500px;
-  }
-  .week-forecast-date {
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 16px;
-    border: 1px solid #a3aab0;
-    
-  }
-  .week-forecast .col2 {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    padding: 10px 3px 0 3px;
-    border: 3px solid none;
-    border-radius: 3px;
-    background-color: #b9b9b93a;
-    font-size: 18px;
-    margin: 0px 1px 10px 0px;
-    width: 70px;
- 
-  }
   
-  #weekIcon {
-    margin: 10px 0 10px 0;
-  
-    width: 85%;
-  }
-  .weektemp h2 {
-    text-shadow: 1px 1px #bbada9;
-  }
-  .week-forecast-temperatures{
-    margin-bottom: 7px;
-  }
-  .week-forecast-tempMax{
-    font-weight: 200;
-  }
-  .week-forecast-tempMin{
-    opacity: 85%;
-  }
  
   @media (min-width: 994px){
     .week-forecast .row{

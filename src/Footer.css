@@ -1,0 +1,17 @@
+.radar{
+    border: 3px solid none;
+    border-radius: 16px;
+    background-color: #b9b9b93a;
+}
+footer{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footertxt{
+    color:rgba(185, 185, 185, 0.288);
+   
+}
+a{
+    color: rgba(185, 185, 185, 0.616);
+    
+}
