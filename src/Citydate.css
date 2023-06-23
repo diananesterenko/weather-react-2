@@ -1,8 +1,4 @@
 
-
-  .form1 .row{
-    padding-left: 20px;
-  }
 #city{
    font-size: 30px;
    font-weight: 250;
@@ -16,50 +12,6 @@
     justify-content: center;
     padding-top: 15px;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-  }
-.search{
-    background-color: #b0a09b5e;
-    border: 2px solid rgb(185, 185, 185);
-    border-radius: 14px;
-    height: 35px;
-    width: 100%;
-    padding: 0 40px;
-    margin-right: 40px;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/831/original/sound.png?1657298218);
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: 30px;
-    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.268);
-}
-.search::placeholder{
-    font-style: italic;
-    font-size: 18px;
-    color: rgb(41, 40, 40);
-    
-}
-.submit {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    border: 2px solid rgb(185, 185, 185);
-    background-color: #b0a09b5e;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/830/original/search.png?1657298154);
-    background-size: 30%;
-    height: 35px;
-    width: 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 16px;
-  }
-  #current {
-   
-    background-image: none;
-    padding-left: 5px;
-    color: rgb(41, 40, 40);
-    cursor: pointer;
-  }
   .city-date {
     box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
     border: 1px solid rgb(185, 185, 185);
@@ -75,6 +27,10 @@
     align-items: stretch;
     justify-content: center;
     font-size: 18px;
+  }
+  #currentDegree{
+    margin-bottom: 4px;
+    padding-top: 4px;
   }
   .date{
     margin: 0 auto;
@@ -103,104 +59,20 @@
   .tempLowHigh p {
     margin: 0px;
   }
-  .weathermarkers {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 30px;
 
-  }
-  #markersLabel{
-    text-align: left;
-    padding-left: 20%;
-    margin-bottom: 5px;
-  }
-  .weathermarkers .col2 {
-    padding: 0px 3px;
-    margin: 0px 15px 10px 0px;
-    width: 50px;
-  }
   .FormDate{
     text-align: center;
+   
   }
   .Date{
     padding-bottom: 25px;
   }
-  .vl {
-    border-left: 2px solid #a3aab0;
-    position: absolute;
-    height: 50px;
-  }
-  .vldiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .value {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    border: 3px solid none;
-    border-radius: 16px;
-    background-color: #b9b9b93a;
-    font-size: 18px;
-    padding: 3px 0 3px 0;
-    text-align: center;
-    width: 65%;
-    margin-bottom: 10px;
-  }
-  canvas{
-    max-width: 80%;
-    margin: 0 auto;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 15px;
-  }
 
-  .week-forecast .row {
-    display: flex;
-    margin: auto 0;
-   justify-content: space-around;
-    text-align: center;
-    padding: 20px 0px 10px 0px;
-    max-width: 500px;
-  }
-  .week-forecast-date {
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 16px;
-    border: 1px solid #a3aab0;
-    
-  }
-  .week-forecast .col2 {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    padding: 10px 3px 0 3px;
-    border: 3px solid none;
-    border-radius: 3px;
-    background-color: #b9b9b93a;
-    font-size: 18px;
-    margin: 0px 1px 10px 0px;
-    width: 70px;
- 
-  }
   
-  #weekIcon {
-    margin: 10px 0 10px 0;
-  
-    width: 85%;
-  }
-  .weektemp h2 {
-    text-shadow: 1px 1px #bbada9;
-  }
-  .week-forecast-temperatures{
-    margin-bottom: 7px;
-  }
-  .week-forecast-tempMax{
-    font-weight: 200;
-  }
-  .week-forecast-tempMin{
-    opacity: 85%;
-  }
+
+
+
+
   .CF {
    
     font-size: 18px;
@@ -229,35 +101,5 @@
   .active {
     text-decoration: underline;
   }
-  @media (min-width: 994px){
-    .week-forecast .row{
-      margin-left: 20px;
-    }
-  }
-  @media (max-width: 444px){
-    .city-date-main .col-1{
-      display: none;
-    }
-    .city-date-main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-     
-    }
-    .iconAndDiscr{
-      margin: 0 auto;
-      justify-content: center;
-      text-align: center;
-      width: 200px;
-    }
-    .weatherdate2colmn{
-      margin: 0 auto;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
-    }
-    .submit{
-      width: 50px;
-    }
-  }
+
+  

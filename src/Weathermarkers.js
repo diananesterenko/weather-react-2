@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Citydate.css";
+import "./Weathermarkers.css";
 
 export default function Weathermarkers(props){
     return( 
@@ -11,7 +11,8 @@ export default function Weathermarkers(props){
             <div className="col-5" id="markersLabel">
       
                 
-                <span >Wind</span>
+                <span > Wind <img className='wind' src='https://img.icons8.com/?size=512&id=105029&format=png' alt="wind"/></span>
+                
                 
                
             </div>
@@ -23,7 +24,7 @@ export default function Weathermarkers(props){
         <div className="col2 row" >
             <div className="col-5" id="markersLabel">
                 <i className="fa-solid fa-droplet" style= {{color: '#212121'}}></i>
-                <span >Humidity</span>
+                <span >Humidity<img className='humidity' src='https://img.icons8.com/?size=512&id=sqkiO6Akiuxj&format=png' alt="humidity"/></span>
                 
             </div>
             <div className="col-7">
@@ -35,7 +36,7 @@ export default function Weathermarkers(props){
         <div className="col2 row" >
             <div className="col-5" id="markersLabel">
                 <i className="fa-solid fa-temperature-three-quarters" style= {{color: '#212121'}}></i>
-                <span >Feels like</span>
+                <span >Feels like <img className='feels' src='https://img.icons8.com/?size=512&id=37802&format=png' alt="feels"/></span>
                 
             </div>
             <div className="col-7">
@@ -50,7 +51,7 @@ export default function Weathermarkers(props){
         <div className="col2 row">
             <div className="col-5" id="markersLabel">
                 <i className="fa-solid fa-sun" style= {{color: '#212121'}}></i>
-                <span >Sunrise</span>
+                <span >Sunrise <img className='sunrise' src='https://img.icons8.com/?size=512&id=lDDjS4BvtYQu&format=png' alt="sunrise"/></span>
                 
             </div>
             <div className="col-7">
@@ -65,7 +66,7 @@ export default function Weathermarkers(props){
         <div className="col2 row">
             <div className="col-5" id="markersLabel">
                 <i className="fa-regular fa-moon" style= {{color: '#212121'}}></i>
-                <span >Sunset</span>
+                <span >Sunset <img className='sunrise' src='https://img.icons8.com/?size=512&id=3455&format=png' alt="sunset"/></span>
                 
             </div>
             <div className="col-7">

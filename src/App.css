@@ -5,13 +5,11 @@ body{
     background-position: 100%;
     background-size:cover;
 }
-article{
-  
-}
+
 .weather-app{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 600px;
-    margin: 10px auto 30px auto;
+    margin: 0px auto 30px auto;
     padding: 0px 20px 20px 20px;
     opacity: 0.9;
     border: 1px solid rgb(185, 185, 185);
@@ -27,20 +25,8 @@ article{
   .form1 .row{
     padding-left: 20px;
   }
-#city{
-   font-size: 30px;
-   font-weight: 250;
-   
-   line-height: 28px;
- 
-}
-#description{
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-   
-}
+
+
 
 .container {
     display: flex;
@@ -85,92 +71,11 @@ article{
     color: rgb(41, 40, 40);
     cursor: pointer;
   }
-  .city-date {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    border: 1px solid rgb(185, 185, 185);
-    border-radius: 24px;
-    background-color: #b9b9b93a;
-    padding: 15px 20px 20px 20px;
-    margin: 11px 0px;
-    text-transform: capitalize;
-  }
-  .weatherdate2colmn {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    font-size: 18px;
-  }
-  .date{
-    margin: 0 auto;
-  }
-  #day{
-    padding-left: 40%;
-  }
 
-  .tempLowHigh {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    border-radius: 24px;
-    border: 1px solid #a3aab0;
-  }
-  .tempLowHigh .row{
-    margin: 0px 10px;
-  }
-  .tempLowHigh .col-5 {
-    margin: 0 auto;
-    text-align: center;
-    padding: 0px;
-  }
-  .tempLowHigh p {
-    margin: 0px;
-  }
-  .weathermarkers {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 30px;
 
-  }
-  #markersLabel{
-    text-align: left;
-    padding-left: 20%;
-    margin-bottom: 5px;
-  }
-  .weathermarkers .col2 {
-    padding: 0px 3px;
-    margin: 0px 15px 10px 0px;
-    width: 50px;
-  }
-  .vl {
-    border-left: 2px solid #a3aab0;
-    position: absolute;
-    height: 50px;
-  }
-  .vldiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .value {
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
-    border: 3px solid none;
-    border-radius: 16px;
-    background-color: #b9b9b93a;
-    font-size: 18px;
-    padding: 3px 0 3px 0;
-    text-align: center;
-    width: 65%;
-    margin-bottom: 10px;
-  }
-  #weather-icon{
-    max-width: 70%;
-    margin: 0 auto;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 15px;
-  }
+
+  
+
 
   
  

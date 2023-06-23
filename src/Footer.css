@@ -1,17 +1,35 @@
-.radar{
-    border: 3px solid none;
-    border-radius: 16px;
-    background-color: #b9b9b93a;
-}
+
 footer{
     max-width: 600px;
     margin: 0 auto;
+    
 }
+
 .footertxt{
-    color:rgba(185, 185, 185, 0.288);
+    color:#212529;
    
 }
 a{
-    color: rgba(185, 185, 185, 0.616);
+    text-decoration: none;
+}
+ 
+.footerlnk{
+    color: rgba(185, 185, 185, 0.123);
+    text-decoration: underline;
+    text-decoration-color: rgba(95, 95, 95, 0.87);
+    
+}
+.socials{
+    text-align: center;
+}
+.socials p{
+    
+    color: #212529;
+  
+}
+.socials img{
+    width: 32px;
+    opacity: 80%;
+    margin: 0px 4px;
     
 }

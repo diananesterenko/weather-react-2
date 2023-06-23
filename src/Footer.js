@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+
 import "./Footer.css";
+
+
 export default function Footer() {
  
     return(
         <footer>
-            <div className='radar'>
-         <a href='https://www.accuweather.com/ru/ua/national/weather-radar'  target="_blank"
-            rel="noopener noreferrer">Weather world radar</a>
-            </div>
+           <div>
             <span className='footertxt'>
         This project was coded by
      
@@ -20,8 +19,9 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            <span className='footertxt'>
+            <span className='footerlnk '>
           open-sourced on GitHub
+          
           </span>
         </a>{" "}
         <span className='footertxt'>
@@ -32,10 +32,27 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-             <span className='footertxt'>
+             <span className='footerlnk'>
           hosted on Netlify
           </span>
+          
         </a>
+        
+        </div>
+        
+        <div className='socials'>
+        <p> @- All rights reserved</p>
+        <a href="https://instagram.com/di_slavovna?igshid=YmMyMTA2M2Y="
+          ><img  src='https://img.icons8.com/?size=512&id=32292&format=png' alt="instagram"/>
+          </a>
+        <a href="https://www.linkedin.com/in/diana-nesterenko-4bb532221/"
+          ><img  src='https://img.icons8.com/?size=512&id=447&format=png' alt="linkedin"/>
+          </a>
+        <a href="https://t.me/di_slavovna"
+          ><img  src='https://img.icons8.com/?size=512&id=9R1sV3QvY18K&format=png' alt="telegram"/>
+          </a>
+        </div>
+
       </footer>
     );
 }

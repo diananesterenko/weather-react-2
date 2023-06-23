@@ -2,9 +2,8 @@ import React from "react";
 import FormatedDate from "./FormatedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherDegree from "./WeatherDegree";
-import './WeatherDegree.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+import './Citydate.css';
+
 
 export default function Citydate(props){
     return( 
@@ -41,6 +40,7 @@ export default function Citydate(props){
                 <div className="row">
                     
                     <div className="col-5">
+                    <WeatherDegree celsius={props.value.degrees} />
                        <span id="lowTemp">{props.value.lowTemp}</span> <span> °</span>
                        <p>Low</p>
                     </div>

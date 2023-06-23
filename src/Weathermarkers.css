@@ -1,0 +1,92 @@
+
+  .weathermarkers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+
+  }
+  #markersLabel{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 5px;
+  }
+  #markersLabel span{
+    width: 96px;
+  }
+  .weathermarkers .col2 {
+    padding: 0px 3px;
+    margin: 0px 15px 10px 0px;
+    width: 50px;
+  }
+  .vl {
+    border-left: 2px solid #a3aab0;
+    position: absolute;
+    height: 50px;
+  }
+  .vldiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .value {
+    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.268);
+    border: 3px solid none;
+    border-radius: 16px;
+    background-color: #b9b9b93a;
+    font-size: 18px;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 10px;
+  }
+
+
+
+
+  
+
+
+
+  canvas{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+  }
+ 
+ 
+  
+  .wind{
+    padding-left: 5px;
+    
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .humidity{
+    padding-left: 5px;
+    
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .feels{
+    padding-left: 5px;
+    opacity: 80%;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .sunrise{
+    padding-left: 5px;
+    opacity: 80%;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
